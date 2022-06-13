@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="tweet-block">
+        <button id="tweet">tweet</button>
+        <input type="Search" id="search" placeholder="            search" />
+      </div>
+      <div id="post-block">
+        <button id="btn-close">close</button>
+        <input id="inp-post" type="text" placeholder="введите текст" />
+        <input
+          id="inp-href"
+          type="text"
+          placeholder="   вставьте ссылку для картинки"
+        />
+        <button id="btn-post">POST</button>
+      </div>
+
+      <div id="list"></div>
+      <div id="pagination"></div>
+      <div id="modal-edit">
+      <button id="modal-edit-close">close</button>
+        <input type="text" id="inp-edit-text" placeholder="введите текст"/>
+        <input type="text" id="inp-edit-img" placeholder="вставьте ссылку"/>
+        <input type="text" id="inp-edit-id" />
+        <button id="btn-save-edit">Save</button>
+    </div>
+      </div>
+    </div>
+
+    <span id="span"></span>
+
+    <button id="clickme">click me: 0</button>
+    <script src="./main.js"></script>
+  </body>
+</html>

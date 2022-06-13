@@ -1,0 +1,189 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(13, 7, 112);
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* #modal-post {
+  display: none;
+} */
+#post-block {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background-color: rgb(75, 141, 165);
+  padding: 10%;
+  border-radius: 20px;
+}
+#inp-post {
+  background-color: white;
+  /* padding: 10% 35%; */
+  text-align: start;
+  width: 300px;
+  padding-bottom: 5%;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+}
+#inp-href {
+  background-color: white;
+  /* padding: 10% 35%; */
+  text-align: start;
+  width: 300px;
+  height: 45px;
+  /* padding-bottom: 5%; */
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  margin-top: 10%;
+}
+#btn-post {
+  margin-top: 5%;
+  padding: 2% 5%;
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+  background-color: rgb(54, 230, 54);
+  border: none;
+}
+#tweet-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+#search {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px;
+  border: none;
+}
+#tweet {
+  background-color: rgb(0, 140, 255);
+  padding: 3% 10%;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 26px;
+  line-height: 32px;
+}
+.elements {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+#item-text {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 5%;
+  font-size: 26px;
+}
+.edit-modal {
+  background-color: rgb(0, 140, 255);
+  padding: 2%;
+  margin: 10px 0;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.delete-modal {
+  background-color: rgb(0, 140, 255);
+  padding: 2%;
+  margin: 10px 0;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+#btn-close {
+  margin-top: 5%;
+  padding: 2% 5%;
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+  background-color: black;
+  border: none;
+  margin-bottom: 5%;
+}
+#list {
+  margin-top: 5%;
+}
+#btn-prev {
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 15px;
+  margin-left: 39%;
+}
+#btn-next {
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 15px;
+}
+#page {
+  color: white;
+}
+#modal-edit {
+  display: none;
+}
+#modal-edit {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(21, 127, 146, 0.229);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 15%;
+}
+#inp-edit-text {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+#inp-edit-img {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#inp-edit-id {
+  display: none;
+}
+#modal-edit-close {
+  margin-bottom: 5%;
+  background-color: rgb(255, 58, 58);
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+}
+#btn-save-edit {
+  margin-top: 5%;
+  background-color: rgb(77, 243, 75);
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+}
+#clickme {
+  display: none;
+}
